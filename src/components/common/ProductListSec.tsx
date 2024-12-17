@@ -21,8 +21,6 @@ const ProductListSec = ({ title, data, viewAllLink }: ProductListSecProps) => {
   return (
     <section className="max-w-frame mx-auto text-center">
       <motion.h2
-        initial={{ y: "100px", opacity: 0 }}
-        whileInView={{ y: "0", opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
         className={cn([
@@ -33,8 +31,6 @@ const ProductListSec = ({ title, data, viewAllLink }: ProductListSecProps) => {
         {title}
       </motion.h2>
       <motion.div
-        initial={{ y: "100px", opacity: 0 }}
-        whileInView={{ y: "0", opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.6, duration: 0.6 }}
       >

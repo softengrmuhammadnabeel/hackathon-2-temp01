@@ -9,10 +9,10 @@ const Header = () => {
     <header className="bg-[#F2F0F1] pt-10 md:pt-24 overflow-hidden">
       <div className="md:max-w-frame mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <section className="max-w-frame px-4">
-          <h2 className={cn([integralCF.className, "text-4xl lg:text-[50px] lg:leading-[50px] mb-5 lg:mb-8 pl-8"])}>
+          <h2 className={cn([integralCF.className, "text-4xl text-left tracking-wide lg:text-[50px] lg:leading-[50px] mb-5 lg:mb-8 pl-8"])}>
             FIND CLOTHES THAT MATCHES YOUR STYLE
           </h2>
-          <p className="text-black/60 text-sm lg:text-base mb-6 lg:mb-8 max-w-[545px]">
+          <p className="text-black/60 text-sm text-left lg:text-base mb-6 lg:mb-8 max-w-[545px]">
             Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
           </p>
           <div>
@@ -56,7 +56,7 @@ const Header = () => {
             height={104}
             width={104}
             alt="big star"
-            className="absolute right-7 xl:right-0 top-12 max-w-[76px] max-h-[76px] lg:max-w-24 lg:max-h-max-w-24 xl:max-w-[104px] xl:max-h-[104px] animate-[spin_4s_infinite]"
+            className="absolute right-7 xl:right-0 top-12 max-w-[76px] max-h-[76px] lg:max-w-24 lg:max-h-max-w-24 xl:max-w-[104px] xl:max-h-[104px] "
           />
           <Image
             priority
@@ -64,7 +64,7 @@ const Header = () => {
             height={56}
             width={56}
             alt="small star"
-            className="absolute left-7 md:left-0 top-36 sm:top-64 md:top-44 lg:top-56 max-w-11 max-h-11 md:max-w-14 md:max-h-14 animate-[spin_3s_infinite]"
+            className="absolute left-7 md:left-0 top-36 sm:top-64 md:top-44 lg:top-56 max-w-11 max-h-11 md:max-w-14 md:max-h-14 "
           />
         </section>
       </div>

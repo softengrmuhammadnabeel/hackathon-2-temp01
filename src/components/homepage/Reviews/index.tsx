@@ -44,8 +44,6 @@ const Reviews = ({ data }: ReviewsProps) => {
   return (
     <section className="overflow-hidden">
       <motion.div
-        initial={{ x: "100px", opacity: 0 }}
-        whileInView={{ x: "0", opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
@@ -59,8 +57,6 @@ const Reviews = ({ data }: ReviewsProps) => {
         >
           <div className="relative flex items-end sm:items-center max-w-frame mx-auto mb-6 md:mb-10 px-4 xl:px-0">
             <motion.h2
-              initial={{ y: "100px", opacity: 0 }}
-              whileInView={{ y: "0", opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.6, duration: 0.6 }}
               className={cn([

@@ -7,7 +7,7 @@ export type SpecItem = {
 
 const specsData: SpecItem[] = [
   {
-    label: " Material composition",
+    label: " Fabric composition",
     value: "100% Cotton",
   },
   {
@@ -15,11 +15,11 @@ const specsData: SpecItem[] = [
     value: "Machine wash warm, tumble dry",
   },
   {
-    label: "Fit type",
+    label: "Size type",
     value: "Classic Fit",
   },
   {
-    label: "Pattern",
+    label: "Color Design",
     value: "Solid",
   },
 ];
@@ -35,7 +35,7 @@ const ProductDetails = () => {
             </p>
           </div>
           <div className="col-span-2 py-3 lg:py-4 border-b">
-            <p className="text-sm w-full leading-7 text-neutral-800 font-medium">
+            <p className="text-md w-full leading-7 text-neutral-800 font-medium">
               {item.value}
             </p>
           </div>

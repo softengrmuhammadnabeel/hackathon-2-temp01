@@ -21,8 +21,6 @@ const DressStyle = () => {
           BROWSE BY dress STYLE
         </motion.h2>
         <motion.div
-          initial={{ y: "100px", opacity: 0 }}
-          whileInView={{ y: "0", opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.6, duration: 0.6 }}
           className="flex flex-col sm:flex-row md:h-[289px] space-y-4 sm:space-y-0 sm:space-x-5 mb-4 sm:mb-5"

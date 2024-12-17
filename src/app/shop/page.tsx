@@ -15,8 +15,7 @@ const ShopPage: React.FC = () => {
         <div className="flex flex-col w-full space-y-5">
           <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="flex items-center justify-between">
-              <h1 className="font-bold text-2xl md:text-[32px]">Casual</h1>
-              {/* You can remove MobileFilters component entirely */}
+              <h1 className="font-bold text-2xl md:text-[32px]">Fashion</h1>
             </div>
 
             <div className="flex flex-col sm:items-center sm:flex-row">

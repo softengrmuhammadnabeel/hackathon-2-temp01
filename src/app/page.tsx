@@ -9,7 +9,7 @@ import { Review } from "@/types/review.types";
 export const newArrivalsData: Product[] = [
   {
     id: 1,
-    title: "T-shirt with Tape Details",
+    title: "Casual V-neck T-shirt",
     srcUrl: "/images/pic1.png",
     gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
     price: 120,
@@ -21,7 +21,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 2,
-    title: "Skinny Fit Jeans",
+    title: "Slim-fit Denim Jeans",
     srcUrl: "/images/pic2.png",
     gallery: ["/images/pic2.png"],
     price: 260,
@@ -33,7 +33,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 3,
-    title: "Chechered Shirt",
+    title: "Classic Plaid Shirt",
     srcUrl: "/images/pic3.png",
     gallery: ["/images/pic3.png"],
     price: 180,
@@ -45,7 +45,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 4,
-    title: "Sleeve Striped T-shirt",
+    title: "Striped Round Neck T-shirt",
     srcUrl: "/images/pic4.png",
     gallery: ["/images/pic4.png", "/images/pic10.png", "/images/pic11.png"],
     price: 160,
@@ -57,10 +57,11 @@ export const newArrivalsData: Product[] = [
   },
 ];
 
+
 export const topSellingData: Product[] = [
   {
     id: 5,
-    title: "Vertical Striped Shirt",
+    title: "Blue Vertical Stripe Shirt",
     srcUrl: "/images/pic5.png",
     gallery: ["/images/pic5.png", "/images/pic10.png", "/images/pic11.png"],
     price: 232,
@@ -72,7 +73,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 6,
-    title: "Courage Graphic T-shirt",
+    title: "Bold Printed T-shirt",
     srcUrl: "/images/pic6.png",
     gallery: ["/images/pic6.png", "/images/pic10.png", "/images/pic11.png"],
     price: 145,
@@ -84,7 +85,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 7,
-    title: "Loose Fit Bermuda Shorts",
+    title: "Relaxed Fit Bermuda Shorts",
     srcUrl: "/images/pic7.png",
     gallery: ["/images/pic7.png"],
     price: 80,
@@ -96,7 +97,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 8,
-    title: "Faded Skinny Jeans",
+    title: "Distressed Skinny Jeans",
     srcUrl: "/images/pic8.png",
     gallery: ["/images/pic8.png"],
     price: 210,
@@ -108,10 +109,11 @@ export const topSellingData: Product[] = [
   },
 ];
 
+
 export const relatedProductData: Product[] = [
   {
     id: 12,
-    title: "Polo with Contrast Trims",
+    title: "Polo with Sleek Trims",
     srcUrl: "/images/pic12.png",
     gallery: ["/images/pic12.png", "/images/pic10.png", "/images/pic11.png"],
     price: 242,
@@ -123,7 +125,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 13,
-    title: "Gradient Graphic T-shirt",
+    title: "Vibrant Graphic Tee",
     srcUrl: "/images/pic13.png",
     gallery: ["/images/pic13.png", "/images/pic10.png", "/images/pic11.png"],
     price: 145,
@@ -135,7 +137,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 14,
-    title: "Polo with Tipping Details",
+    title: "Premium Tipped Polo Shirt",
     srcUrl: "/images/pic14.png",
     gallery: ["/images/pic14.png"],
     price: 180,
@@ -147,7 +149,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 15,
-    title: "Black Striped T-shirt",
+    title: "Modern Striped T-shirt",
     srcUrl: "/images/pic15.png",
     gallery: ["/images/pic15.png"],
     price: 150,
@@ -159,34 +161,34 @@ export const relatedProductData: Product[] = [
   },
 ];
 
+
 export const reviewsData: Review[] = [
   {
     id: 1,
-    user: "Alex K.",
+    user: "Mick Rojjan.",
     content:
-      '"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”',
+      `"Shop.Co has completely transformed my shopping flavour. The quality of their clothes is exceptional, and the variety ensures there's something for every occasion!"`,
     rating: 5,
-    date: "August 14, 2023",
+    date: "December 19, 2023",
   },
   {
     id: 2,
-    user: "Sarah M.",
-    content: `"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”`,
+    user: "Jaquline Jode.",
+    content:
+      `"I ordered multiple items from Shop.co, and I’m consistently impressed with the style, fit, and quality. Their collections are trendy yet timeless."`,
     rating: 5,
-    date: "August 15, 2023",
+    date: "November 10, 2023",
   },
   {
     id: 3,
-    user: "James L.",
-    content: `
-"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”"`,
+    user: "Daniel W.",
+    content:
+      `"From formal to casual wear, Shop.co has become my go-to fashion destination. The prices are reasonable, and the delivery is always on time!"`,
     rating: 5,
-    date: "August 16, 2023",
+    date: "January 22, 2024",
   },
-  
-  
-  
-]
+];
+
 
 export default function Home() {
   return (
