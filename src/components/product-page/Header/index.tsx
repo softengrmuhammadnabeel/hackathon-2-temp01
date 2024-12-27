@@ -17,10 +17,9 @@ const Header = ({ data }: { data: Product }) => {
         </div>
         <div>
           <h1
-            className={cn([
-              integralCF.className,
-              "text-2xl md:text-[40px] md:leading-[40px] mb-3 md:mb-3.5 capitalize",
-            ])}
+            className=
+            "text-2xl md:text-[40px] md:leading-[40px] mb-3 md:mb-3.5 capitalize font-integralCF font-extrabold "
+
           >
             {data.title}
           </h1>
