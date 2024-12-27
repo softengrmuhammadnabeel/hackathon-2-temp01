@@ -1,6 +1,5 @@
 import BreadcrumbShop from "@/components/shop-page/BreadcrumbShop";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { FiSliders } from "react-icons/fi";
 import { newArrivalsData, relatedProductData, topSellingData } from "../page";
 import ProductCard from "@/components/common/ProductCard";
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious, PaginationEllipsis } from "@/components/ui/pagination";
@@ -29,13 +28,19 @@ const ShopPage: React.FC = () => {
               <div className="flex items-center">
                 Sort by:{" "}
                 <Select defaultValue="most-popular">
-                  <SelectTrigger className="font-medium text-sm px-1.5 sm:text-base w-fit text-black bg-transparent shadow-none border-none">
-                    <SelectValue />
+                  <SelectTrigger className="font-medium text-sm px-1.5 sm:text-base w-fit text-black bg-transparent shadow-none border-none focus:outline-none focus:ring-0">
+                    <SelectValue className="border-none" />
                   </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="most-popular">Most Popular</SelectItem>
-                    <SelectItem value="low-price">Low Price</SelectItem>
-                    <SelectItem value="high-price">High Price</SelectItem>
+                  <SelectContent className="border-none">
+                    <SelectItem value="most-popular" className="border-none">
+                      Most Popular
+                    </SelectItem>
+                    <SelectItem value="low-price" className="border-none">
+                      Low Price
+                    </SelectItem>
+                    <SelectItem value="high-price" className="border-none">
+                      High Price
+                    </SelectItem>
                   </SelectContent>
                 </Select>
               </div>

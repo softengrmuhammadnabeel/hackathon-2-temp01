@@ -1,7 +1,6 @@
 "use client"
 import BreadcrumbCart from '@/components/cart-page/BreadcrumbCart';
 import CartMain from '@/components/cart-page/CartMain';
-import { div } from 'framer-motion/client';
 import React from 'react';
 
 const page = () => {

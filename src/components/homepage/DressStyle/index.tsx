@@ -9,8 +9,6 @@ const DressStyle = () => {
     <div className="px-4 xl:px-0">
       <section className="max-w-frame mx-auto bg-[#F0F0F0] px-6 pb-6 pt-10 md:p-[70px] rounded-[40px] text-center">
         <motion.h2
-          initial={{ y: "100px", opacity: 0 }}
-          whileInView={{ y: "0", opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
           className={cn([
@@ -37,8 +35,6 @@ const DressStyle = () => {
           />
         </motion.div>
         <motion.div
-          initial={{ y: "100px", opacity: 0 }}
-          whileInView={{ y: "0", opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 1, duration: 0.6 }}
           className="flex flex-col sm:flex-row md:h-[289px] space-y-5 sm:space-y-0 sm:space-x-5"

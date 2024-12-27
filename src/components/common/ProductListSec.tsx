@@ -21,8 +21,6 @@ const ProductListSec = ({ title, data, viewAllLink }: ProductListSecProps) => {
   return (
     <section className="max-w-frame mx-auto text-center">
       <motion.h2
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
         className={cn([
           integralCF.className,
           "text-[32px] md:text-5xl mb-8 md:mb-14 capitalize",
@@ -31,8 +29,6 @@ const ProductListSec = ({ title, data, viewAllLink }: ProductListSecProps) => {
         {title}
       </motion.h2>
       <motion.div
-        viewport={{ once: true }}
-        transition={{ delay: 0.6, duration: 0.6 }}
       >
         <Carousel
           opts={{

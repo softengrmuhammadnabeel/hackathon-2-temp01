@@ -101,7 +101,7 @@ const TopNavbar = () => {
             ))}
           </NavigationMenuList>
         </NavigationMenu>
-        <InputGroup className="hidden md:flex bg-[#F0F0F0] mr-3 lg:mr-10">
+        <InputGroup className="hidden md:flex bg-[#F0F0F0] mr-3 lg:mr-10 shadow-none">
           <InputGroup.Text>
             <Image
               priority
@@ -109,14 +109,14 @@ const TopNavbar = () => {
               height={20}
               width={20}
               alt="search"
-              className="min-w-5 min-h-5"
+              className="min-w-5 min-h-5 shadow-none"
             />
           </InputGroup.Text>
           <InputGroup.Input
             type="search"
             name="search"
             placeholder="Search for products..."
-            className="bg-transparent placeholder:text-black/40"
+            className="bg-transparent placeholder:text-black/40 shadow-none"
           />
         </InputGroup>
         <div className="flex items-center">
